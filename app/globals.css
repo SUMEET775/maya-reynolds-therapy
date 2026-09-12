@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: var(--font-serif);
+    --font-sans: var(--font-sans);
+    --font-script: var(--font-script);
+  }
+
+  body {
+    background-color: #FAF8F5;
+    color: #242828;
+    font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-serif), Georgia, Cambria, "Times New Roman", Times, serif;
+  }
+
+  .font-script {
+    font-family: var(--font-script), "Caveat", "Brush Script MT", cursive;
+  }
+}
