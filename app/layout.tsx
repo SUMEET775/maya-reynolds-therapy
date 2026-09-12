@@ -25,14 +25,6 @@ export const metadata: Metadata = {
   title: "Dr. Maya Reynolds, PsyD | Clinical Psychologist in Santa Monica, CA",
   description:
     "Dr. Maya Reynolds, PsyD is a licensed clinical psychologist in Santa Monica, CA offering therapy for adults struggling with anxiety, panic, trauma, and burnout.",
-  keywords: [
-    "Dr. Maya Reynolds PsyD",
-    "Clinical Psychologist Santa Monica",
-    "Anxiety Therapy Santa Monica",
-    "Trauma Therapy EMDR Santa Monica",
-    "Burnout Therapy California",
-    "California Telehealth Psychologist",
-  ],
 };
 
 export default function RootLayout({

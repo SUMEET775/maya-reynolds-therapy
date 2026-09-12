@@ -30,17 +30,13 @@ export default function Hero() {
               Licensed Clinical Psychologist · In-Person in Santa Monica &amp; Telehealth Across California
             </p>
 
-            {/* Single H1 on page for primary SEO keywords & emotional resonance */}
+            {/* Single H1 on page for primary headline & emotional resonance */}
             <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[46px] xl:text-[50px] text-[#242828] font-normal leading-[1.18] tracking-tight">
               A grounded space to heal from anxiety, burnout, and{" "}
               <span className="italic font-normal">past experiences</span>.
             </h1>
 
-            {/* Therapist Name and Credential as H2 */}
-            <h2 className="text-base sm:text-lg font-medium text-[#404945]">
-              Dr. Maya Reynolds, PsyD · Licensed Clinical Psychologist
-            </h2>
-
+           
             <p className="text-base sm:text-lg text-[#555E5A] leading-relaxed font-light max-w-2xl">
               Specialized therapy for adults who feel overwhelmed by anxiety, stress, or the lingering effects of past experiences. Helping high-achieving, thoughtful individuals move from exhaustion to grounded resilience.
             </p>
