@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+
 import { Newsreader, Work_Sans, Caveat } from "next/font/google";
 import "./globals.css";
 
@@ -21,11 +21,6 @@ const caveat = Caveat({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: "Dr. Maya Reynolds, PsyD | Clinical Psychologist in Santa Monica, CA",
-  description:
-    "Dr. Maya Reynolds, PsyD is a licensed clinical psychologist in Santa Monica, CA offering therapy for adults struggling with anxiety, panic, trauma, and burnout.",
-};
 
 export default function RootLayout({
   children,

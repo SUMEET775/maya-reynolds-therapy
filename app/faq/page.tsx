@@ -1,14 +1,9 @@
 import React from "react";
-import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-export const metadata: Metadata = {
-  title: "Frequently Asked Questions | Dr. Maya Reynolds, PsyD",
-  description:
-    "Common questions about therapy, EMDR, anxiety, burnout, and in-person or telehealth counseling with Dr. Maya Reynolds, PsyD in Santa Monica, CA.",
-};
+
 
 const faqs = [
   {
