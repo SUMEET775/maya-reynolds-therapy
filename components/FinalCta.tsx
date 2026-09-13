@@ -6,17 +6,34 @@ export default function FinalCta() {
   return (
     <section id="contact" className="py-20 md:py-28 bg-[#FAF8F5] border-b border-[#E7E0D6] overflow-hidden">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
-        {/* Clean 2-Column Layout: Left Copy & CTA, Right Inviting Consultation Corner */}
+        {/* Clean 2-Column Responsive Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 xl:gap-16 items-center">
-          {/* Column 1 (Left - Cols 1 to 7): Copy and CTA Button */}
-          <div className="order-1 lg:order-1 lg:col-span-7 space-y-6 lg:pr-4 text-left">
-            <p className="text-xs sm:text-sm font-semibold uppercase tracking-widest text-[#547A65]">
-              Begin Your Healing Journey
-            </p>
+          {/* Left Column (Cols 1 to 7 on Desktop): Copy and CTA Button */}
+          <div className="lg:col-span-7 space-y-6 lg:pr-4 text-left">
+            <div className="space-y-3">
+              <p className="text-xs sm:text-sm font-semibold uppercase tracking-widest text-[#547A65]">
+                Begin Your Healing Journey
+              </p>
 
-            <h2 className="font-serif text-3xl sm:text-4xl lg:text-[44px] text-[#242828] font-normal leading-tight tracking-tight">
-              Finding the right therapist is the first step toward lasting ease.
-            </h2>
+              <h2 className="font-serif text-3xl sm:text-4xl lg:text-[44px] text-[#242828] font-normal leading-tight tracking-tight">
+                Finding the right therapist is the first step toward lasting ease.
+              </h2>
+            </div>
+
+            {/* Mobile/Tablet Image (visible on < lg screens, before information) */}
+            <div className="lg:hidden flex justify-center py-2">
+              <div className="w-full max-w-[360px]">
+                <div className="relative aspect-[4/3] sm:aspect-[3/4] w-full rounded-3xl overflow-hidden shadow-sm border-2 border-[#E7E0D6] bg-[#F2EDE5]">
+                  <Image
+                    src="/images/final_cta_welcome.jpg"
+                    alt="Warm and inviting therapy consultation armchair corner in Santa Monica with Dr. Maya Reynolds"
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 360px"
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+            </div>
 
             <p className="text-base sm:text-lg text-[#555E5A] leading-relaxed font-light">
               Coming to therapy is a courageous decision, and connecting with the right therapist makes all the difference. I understand that your journey is deeply personal, and I’m here to support you with care, warmth, and grounded presence every step of the way.
@@ -38,15 +55,15 @@ export default function FinalCta() {
             </div>
           </div>
 
-          {/* Column 2 (Right - Cols 8 to 12): Inviting Therapy Consultation Corner Photo */}
-          <div className="order-2 lg:order-2 lg:col-span-5 flex justify-center lg:justify-end">
-            <div className="w-full max-w-[340px] sm:max-w-[380px] lg:max-w-[420px]">
+          {/* Desktop Right Column (Cols 8 to 12): visible on lg+ screens */}
+          <div className="hidden lg:flex lg:col-span-5 justify-end">
+            <div className="w-full max-w-[420px]">
               <div className="relative aspect-[3/4] w-full rounded-3xl overflow-hidden shadow-sm border-2 border-[#E7E0D6] bg-[#F2EDE5]">
                 <Image
                   src="/images/final_cta_welcome.jpg"
                   alt="Warm and inviting therapy consultation armchair corner in Santa Monica with Dr. Maya Reynolds"
                   fill
-                  sizes="(max-width: 1024px) 380px, 420px"
+                  sizes="420px"
                   className="object-cover"
                 />
               </div>
