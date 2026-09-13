@@ -86,33 +86,7 @@ export default function ContactPage() {
                   </p>
                 </div>
 
-                <div>
-                  <p className="font-medium text-[#242828]">California Telehealth</p>
-                  <p>Secure, HIPAA-compliant virtual care across California</p>
-                </div>
 
-                <div>
-                  <p className="font-medium text-[#242828]">Direct Inquiries & Response</p>
-                  <p>
-                    <a
-                      href="mailto:contact@drmayareynolds.com"
-                      className="hover:text-[#547A65] transition-colors"
-                    >
-                      contact@drmayareynolds.com
-                    </a>
-                  </p>
-                  <p>
-                    <a
-                      href="tel:3105550192"
-                      className="hover:text-[#547A65] transition-colors"
-                    >
-                      (310) 555-0192
-                    </a>
-                  </p>
-                  <p className="text-xs text-[#7A827E] mt-0.5">
-                    I personally reply to every inquiry within 1–2 business days
-                  </p>
-                </div>
               </div>
             </div>
 
