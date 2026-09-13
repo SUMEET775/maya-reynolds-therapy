@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AreasOfExpertise() {
   return (
-    <section id="specialties" className="py-20 md:py-28 bg-[#FAF8F5] border-b border-[#E7E0D6]">
+    <section id="expertise" className="py-20 md:py-28 bg-[#FAF8F5] border-b border-[#E7E0D6]">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
           {/* Left Column (Cols 1 to 4): Heading */}

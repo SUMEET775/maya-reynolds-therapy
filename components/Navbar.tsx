@@ -32,6 +32,12 @@ export default function Navbar() {
               About
             </Link>
             <Link
+              href="/#specialties"
+              className="text-[17px] font-medium text-[#363E3B] hover:text-[#547A65] transition-colors"
+            >
+              Specialties
+            </Link>
+            <Link
               href="/office"
               className="text-[17px] font-medium text-[#363E3B] hover:text-[#547A65] transition-colors"
             >
@@ -106,6 +112,13 @@ export default function Navbar() {
             className="block px-3 py-2.5 text-lg font-medium text-[#2E3633] hover:bg-[#F2ECE2] rounded-lg transition-colors"
           >
             About
+          </Link>
+          <Link
+            href="/#specialties"
+            onClick={closeMenu}
+            className="block px-3 py-2.5 text-lg font-medium text-[#2E3633] hover:bg-[#F2ECE2] rounded-lg transition-colors"
+          >
+            Specialties
           </Link>
           <Link
             href="/office"
