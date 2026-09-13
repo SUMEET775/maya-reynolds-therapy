@@ -1,6 +1,5 @@
 import React from "react";
 import type { Metadata } from "next";
-import Link from "next/link";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -63,15 +62,6 @@ export default function AboutPage() {
                   </p>
                 </div>
 
-                <div className="pt-2">
-                  <Link
-                    href="/contact"
-                    className="group relative inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-[#547A65] rounded-full overflow-hidden shadow-xs transition-colors"
-                  >
-                    <span className="absolute inset-0 w-full h-full bg-[#3D5B4A] -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out" />
-                    <span className="relative z-10">Schedule a Session</span>
-                  </Link>
-                </div>
               </div>
             </div>
           </div>
