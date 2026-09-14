@@ -62,9 +62,7 @@ export default function ContactPage() {
                 <p className="text-base sm:text-lg text-[#555E5A] leading-relaxed font-light mt-5">
                   Reaching out is often the most courageous step, especially
                   when you are used to holding everything together on your own.
-                  Please share what you are experiencing below. I personally
-                  review every inquiry and will respond within 1–2 business days
-                  to discuss your scheduling needs.
+                  Please share what you are experiencing below.
                 </p>
               </div>
 
@@ -85,8 +83,6 @@ export default function ContactPage() {
                     Quiet, sound-insulated private suite with easy parking
                   </p>
                 </div>
-
-
               </div>
             </div>
 

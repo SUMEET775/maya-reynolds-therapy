@@ -2,24 +2,6 @@
 
 A modern, responsive website for Dr. Maya Reynolds, PsyD, a licensed clinical psychologist based in Santa Monica, California, offering therapy for anxiety, trauma, and burnout.
 
-## Getting Started
-
-### 1. Install Dependencies
-```bash
-npm install
-```
-
-### 2. Run Locally
-```bash
-npm run dev
-```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### 3. Build for Production
-```bash
-npm run build
-npm run start
-```
 
 ## Pages & Structure
 
