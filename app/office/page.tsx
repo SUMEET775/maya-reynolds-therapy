@@ -16,10 +16,10 @@ export default function OfficePage() {
     <div className="min-h-screen flex flex-col bg-[#FAF8F5] text-[#242828]">
       <Navbar />
 
-      <main className="flex-grow">
+      <main className=" grow">
         {/* Office Presentation Section */}
         <section className="pt-8 sm:pt-12 pb-16 md:pb-24 bg-[#FAF8F5]">
-          <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-300 mx-auto px-4 sm:px-6 lg:px-8">
             {/* Header - Compact so images are immediately visible on entry */}
             <div className="text-center space-y-3 sm:space-y-4 max-w-3xl mx-auto mb-8 sm:mb-10">
               <p className="text-xs font-semibold uppercase tracking-widest text-[#547A65]">
@@ -38,7 +38,7 @@ export default function OfficePage() {
             {/* 2 Images Showcase - Prominently visible upon entering */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 mb-14 md:mb-16">
               <div className="space-y-3">
-                <div className="relative aspect-[16/11] w-full rounded-2xl sm:rounded-3xl overflow-hidden border border-[#E2DAD0] shadow-sm bg-[#F2EDE5]">
+                <div className="relative aspect-16/11 w-full rounded-2xl sm:rounded-3xl overflow-hidden border border-[#E2DAD0] shadow-sm bg-[#F2EDE5]">
                   <Image
                     src="/images/office1.jpeg"
                     alt="Dr. Maya Reynolds quiet Santa Monica therapy office with natural light and exposed brick"
@@ -54,7 +54,7 @@ export default function OfficePage() {
               </div>
 
               <div className="space-y-3">
-                <div className="relative aspect-[16/11] w-full rounded-2xl sm:rounded-3xl overflow-hidden border border-[#E2DAD0] shadow-sm bg-[#F2EDE5]">
+                <div className="relative aspect-16/11 w-full rounded-2xl sm:rounded-3xl overflow-hidden border border-[#E2DAD0] shadow-sm bg-[#F2EDE5]">
                   <Image
                     src="/images/office2.jpeg"
                     alt="Dr. Maya Reynolds comfortable, private therapy room in Santa Monica with olive tree and seating"

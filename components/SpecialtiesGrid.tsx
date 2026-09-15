@@ -3,7 +3,7 @@ import React from "react";
 export default function SpecialtiesGrid() {
   return (
     <section id="specialties" className="py-20 md:py-28 bg-[#FAF8F5] scroll-mt-20">
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
+      <div className="max-w-350 mx-auto px-4 sm:px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
           {/* Left Column (Cols 1 to 4): Heading */}
           <div className="lg:col-span-4 space-y-3">

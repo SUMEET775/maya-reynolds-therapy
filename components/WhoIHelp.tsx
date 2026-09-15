@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function WhoIHelp() {
   return (
     <section id="who-i-help" className="py-20 md:py-28 bg-[#FAF8F5] border-b border-[#E7E0D6]">
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
+      <div className="max-w-350 mx-auto px-4 sm:px-6 lg:px-12">
         {/* Section Heading Left-Aligned Matching Reference Site */}
         <div className="mb-14 max-w-3xl space-y-3">
           <p className="text-xs font-semibold uppercase tracking-widest text-[#547A65]">
@@ -22,7 +22,7 @@ export default function WhoIHelp() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10">
           {/* Card 1: Adults with Anxiety & Panic */}
           <div className="flex flex-col space-y-5">
-            <div className="relative aspect-[4/3] w-full rounded-t-[80px] rounded-b-2xl overflow-hidden bg-[#ECE6DC] border border-[#E2DAD0] shadow-xs">
+            <div className="relative aspect-4/3 w-full rounded-t-[80px] rounded-b-2xl overflow-hidden bg-[#ECE6DC] border border-[#E2DAD0] shadow-xs">
               <Image
                 src="/images/anxiety.jpg"
                 alt="Therapy for adults with anxiety, stress, and panic in Santa Monica"
@@ -43,7 +43,7 @@ export default function WhoIHelp() {
 
           {/* Card 2: High-Achievers & Professionals Facing Burnout */}
           <div className="flex flex-col space-y-5">
-            <div className="relative aspect-[4/3] w-full rounded-t-[80px] rounded-b-2xl overflow-hidden bg-[#ECE6DC] border border-[#E2DAD0] shadow-xs">
+            <div className="relative aspect-4/3 w-full rounded-t-[80px] rounded-b-2xl overflow-hidden bg-[#ECE6DC] border border-[#E2DAD0] shadow-xs">
               <Image
                 src="/images/burnout.jpg"
                 alt="Support for professional burnout and perfectionism in California"
@@ -64,7 +64,7 @@ export default function WhoIHelp() {
 
           {/* Card 3: Adults Navigating Trauma & Past Experiences */}
           <div className="flex flex-col space-y-5">
-            <div className="relative aspect-[4/3] w-full rounded-t-[80px] rounded-b-2xl overflow-hidden bg-[#ECE6DC] border border-[#E2DAD0] shadow-xs">
+            <div className="relative aspect-4/3 w-full rounded-t-[80px] rounded-b-2xl overflow-hidden bg-[#ECE6DC] border border-[#E2DAD0] shadow-xs">
               <Image
                 src="/images/trauma.jpg"
                 alt="Trauma recovery and EMDR therapy with Dr. Maya Reynolds"

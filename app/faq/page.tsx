@@ -43,10 +43,10 @@ export default function FaqPage() {
     <div className="min-h-screen flex flex-col bg-[#FAF8F5] text-[#242828]">
       <Navbar />
 
-      <main className="flex-grow">
+      <main className="grow">
         {/* Unified FAQ Section */}
         <section className="py-16 md:py-24 bg-[#FAF8F5]">
-          <div className="max-w-[860px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-215 mx-auto px-4 sm:px-6 lg:px-8">
             {/* Heading */}
             <div className="text-center space-y-5 mb-12 md:mb-14">
               <p className="text-xs font-semibold uppercase tracking-widest text-[#547A65]">
@@ -71,7 +71,7 @@ export default function FaqPage() {
                 >
                   <summary className="flex items-center justify-between cursor-pointer list-none select-none font-serif text-xl sm:text-2xl text-[#242828] font-normal tracking-tight">
                     <span className="pr-4">{faq.question}</span>
-                    <span className="flex-shrink-0 w-8 h-8 rounded-full bg-[#EFE9DF] group-open:bg-[#547A65] group-open:text-white text-[#547A65] flex items-center justify-center transition-colors">
+                    <span className=" shrink-0 w-8 h-8 rounded-full bg-[#EFE9DF] group-open:bg-[#547A65] group-open:text-white text-[#547A65] flex items-center justify-center transition-colors">
                       <svg
                         className="w-4 h-4 transition-transform duration-300 group-open:rotate-180"
                         fill="none"

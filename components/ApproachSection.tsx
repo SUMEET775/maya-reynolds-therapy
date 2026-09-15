@@ -68,11 +68,11 @@ export default function ApproachSection() {
 
       {/* Section 7: Transition Banner (Image Left, Heading Right - Matching Reference Site Section 7) */}
       <section className="py-20 md:py-24 bg-[#FAF8F5]">
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
+        <div className="max-w-350 mx-auto px-4 sm:px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
             {/* Left Image Half (Cols 1 to 6) */}
             <div className="lg:col-span-6">
-              <div className="relative aspect-[16/10] w-full rounded-[2rem] overflow-hidden shadow-sm border border-[#E2DAD0] bg-[#F2EDE5]">
+              <div className="relative aspect-16/10 w-full rounded-4xl overflow-hidden shadow-sm border border-[#E2DAD0] bg-[#F2EDE5]">
                 <Image
                   src="/images/trauma.jpg"
                   alt="Grounding Pacific coastal landscape in Santa Monica California"

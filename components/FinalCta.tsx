@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function FinalCta() {
   return (
     <section id="contact" className="py-20 md:py-28 bg-[#FAF8F5] border-b border-[#E7E0D6] overflow-hidden">
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
+      <div className="max-w-350 mx-auto px-4 sm:px-6 lg:px-12">
         {/* Clean 2-Column Responsive Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 xl:gap-16 items-center">
           {/* Left Column (Cols 1 to 7 on Desktop): Copy and CTA Button */}
@@ -22,8 +22,8 @@ export default function FinalCta() {
 
             {/* Mobile/Tablet Image (visible on < lg screens, before information) */}
             <div className="lg:hidden flex justify-center py-2">
-              <div className="w-full max-w-[360px]">
-                <div className="relative aspect-[4/3] sm:aspect-[3/4] w-full rounded-3xl overflow-hidden shadow-sm border-2 border-[#E7E0D6] bg-[#F2EDE5]">
+              <div className="w-full max-w-90">
+                <div className="relative aspect-4/3 sm:aspect-3/4 w-full rounded-3xl overflow-hidden shadow-sm border-2 border-[#E7E0D6] bg-[#F2EDE5]">
                   <Image
                     src="/images/final_cta_welcome.jpg"
                     alt="Warm and inviting therapy consultation armchair corner in Santa Monica with Dr. Maya Reynolds"
@@ -57,8 +57,8 @@ export default function FinalCta() {
 
           {/* Desktop Right Column (Cols 8 to 12): visible on lg+ screens */}
           <div className="hidden lg:flex lg:col-span-5 justify-end">
-            <div className="w-full max-w-[420px]">
-              <div className="relative aspect-[3/4] w-full rounded-3xl overflow-hidden shadow-sm border-2 border-[#E7E0D6] bg-[#F2EDE5]">
+            <div className="w-full max-w-105">
+              <div className="relative aspect-3/4 w-full rounded-3xl overflow-hidden shadow-sm border-2 border-[#E7E0D6] bg-[#F2EDE5]">
                 <Image
                   src="/images/final_cta_welcome.jpg"
                   alt="Warm and inviting therapy consultation armchair corner in Santa Monica with Dr. Maya Reynolds"

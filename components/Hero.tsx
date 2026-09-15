@@ -5,13 +5,13 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative py-16 md:py-24 lg:py-28 border-b border-[#E7E0D6] overflow-hidden bg-[#FAF8F5]">
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
+      <div className="max-w-350 mx-auto px-4 sm:px-6 lg:px-12">
         {/* Clean 2-Column Layout: Left Portrait, Right Headline & Bio */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 xl:gap-16 items-center">
           {/* Column 1 (Left - Cols 1 to 5): Primary Portrait of Dr. Maya Reynolds */}
           <div className="order-1 lg:order-1 lg:col-span-5 flex justify-center lg:justify-start">
-            <div className="w-full max-w-[340px] sm:max-w-[380px] lg:max-w-[420px]">
-              <div className="relative aspect-[3/4] w-full rounded-3xl overflow-hidden border-2 border-[#E7E0D6] shadow-sm bg-[#F2EDE5]">
+            <div className="w-full max-w-85 sm:max-w-95 lg:max-w-105">
+              <div className="relative aspect-3/4 w-full rounded-3xl overflow-hidden border-2 border-[#E7E0D6] shadow-sm bg-[#F2EDE5]">
                 <Image
                   src="/images/dr-maya-reynolds.png"
                   alt="Dr. Maya Reynolds, PsyD · Licensed Clinical Psychologist in Santa Monica"

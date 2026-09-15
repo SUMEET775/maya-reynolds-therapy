@@ -42,8 +42,8 @@ export default function ContactPage() {
     <div className="min-h-screen flex flex-col bg-[#FAF8F5] text-[#242828]">
       <Navbar />
 
-      <main className="flex-grow py-12 sm:py-16 md:py-24">
-        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+      <main className=" grow py-12 sm:py-16 md:py-24">
+        <div className="max-w-300 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
             {/* Left Column: Heading & Practice Information (Tailored for Dr. Maya Reynolds) */}
             <div className="lg:col-span-5 space-y-6 lg:sticky lg:top-24">

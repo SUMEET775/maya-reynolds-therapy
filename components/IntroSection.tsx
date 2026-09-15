@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function IntroSection() {
   return (
     <section id="about" className="py-20 md:py-28 bg-[#F5F0E8] border-b border-[#E7E0D6]">
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
+      <div className="max-w-350 mx-auto px-4 sm:px-6 lg:px-12">
         {/* 2-Column Responsive Layout: Heading & Text Left, Image Starting at the Top on Right */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
           {/* Left Column (Cols 1 to 7): Heading & Supporting Copy */}
@@ -15,8 +15,8 @@ export default function IntroSection() {
 
             {/* Mobile/Tablet Image (visible on < lg screens, before text) */}
             <div className="lg:hidden flex justify-center pt-2 pb-4">
-              <div className="w-full max-w-[340px]">
-                <div className="relative aspect-[4/5] w-full rounded-3xl overflow-hidden border-2 border-[#E2DAD0] shadow-sm bg-[#FAF8F5]">
+              <div className="w-full max-w-85">
+                <div className="relative aspect-4/5 w-full rounded-3xl overflow-hidden border-2 border-[#E2DAD0] shadow-sm bg-[#FAF8F5]">
                   <Image
                     src="/images/holding-together.jpg"
                     alt="A thoughtful adult resting peacefully and releasing the weight of emotional overwhelm in therapy"
@@ -51,8 +51,8 @@ export default function IntroSection() {
 
           {/* Desktop Right Column (Cols 8 to 12): visible on lg+ screens */}
           <div className="hidden lg:flex lg:col-span-5 justify-end">
-            <div className="w-full max-w-[420px]">
-              <div className="relative aspect-[4/5] w-full rounded-3xl overflow-hidden border-2 border-[#E2DAD0] shadow-sm bg-[#FAF8F5]">
+            <div className="w-full max-w-105">
+              <div className="relative aspect-4/5 w-full rounded-3xl overflow-hidden border-2 border-[#E2DAD0] shadow-sm bg-[#FAF8F5]">
                 <Image
                   src="/images/holding-together.jpg"
                   alt="A thoughtful adult resting peacefully and releasing the weight of emotional overwhelm in therapy"

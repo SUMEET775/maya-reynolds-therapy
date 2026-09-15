@@ -15,15 +15,15 @@ export default function AboutPage() {
     <div className="min-h-screen flex flex-col bg-[#FAF8F5] text-[#242828]">
       <Navbar />
 
-      <main className="flex-grow">
+      <main className="grow">
         {/* 1. About Her (Hero) */}
         <section className="py-16 md:py-24 border-b border-[#E7E0D6] bg-[#FAF8F5]">
-          <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-300 mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
               {/* Photo Aligned with Top of Bio */}
               <div className="lg:col-span-5 flex justify-center lg:justify-start">
-                <div className="w-full max-w-[220px] sm:max-w-[280px] md:max-w-[320px] lg:max-w-[380px]">
-                  <div className="relative aspect-[3/4] w-full rounded-2xl lg:rounded-3xl overflow-hidden border-2 border-[#E7E0D6] shadow-sm bg-[#F2EDE5]">
+                <div className="w-full max-w-55 sm:max-w-70 md:max-w-[320px] lg:max-w-95">
+                  <div className="relative aspect-3/4 w-full rounded-2xl lg:rounded-3xl overflow-hidden border-2 border-[#E7E0D6] shadow-sm bg-[#F2EDE5]">
                     <Image
                       src="/images/dr-maya-reynolds.png"
                       alt="Dr. Maya Reynolds, PsyD · Licensed Clinical Psychologist in Santa Monica"
@@ -69,7 +69,7 @@ export default function AboutPage() {
 
         {/* 2. What She Does (Clean 2-Column Overview) */}
         <section className="py-16 md:py-24 bg-[#F5F0E8] border-b border-[#E7E0D6]">
-          <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-300 mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-2xl mb-12">
               <p className="text-xs font-semibold uppercase tracking-widest text-[#547A65] mb-2">
                 What I Do
